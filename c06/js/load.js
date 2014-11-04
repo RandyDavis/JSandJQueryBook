@@ -1,10 +1,10 @@
-function setup() {                                  // Declare function
-  var textInput;                                    // Create variable
-  textInput = document.getElementById('username');  // Get username input
-  textInput.focus();                                // Give username focus
-}
+// function setup() {                                  // Declare function
+//   var textInput;                                    // Create variable
+//   textInput = document.getElementById('username');  // Get username input
+//   textInput.focus();                                // Give username focus
+// }
 
-window.addEventListener('load', setup, false); // When page loaded call setup()
+// window.addEventListener('load', setup, false); // When page loaded call setup()
 
 
 /* LONGER VERSION WITH IE8 (and lower) compatibility
@@ -20,3 +20,22 @@ if (el.addEventListener) {
 }
 
 */
+
+// 2nd time
+// function setup() {
+//   var textInput;
+//   textInput = document.getElementById('username');
+//   textInput.focus();
+// }
+
+// window.addEventListener('load', setup, false);
+
+
+// 3rd time 
+function setup() {
+  var textInput;
+  textInput =document.getElementById('username');
+  textInput.focus();
+}
+
+window.addEventListener('load', setup, false);
